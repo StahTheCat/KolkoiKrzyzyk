@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caba97cb-afea-45c7-9c95-1b5f59b78055" name="Default Changelist" comment="druk poprawny, gra gitara">
+    <list default="true" id="caba97cb-afea-45c7-9c95-1b5f59b78055" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatCave/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatCave/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatCave/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatCave/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CatCave/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CatCave/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582489604612</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="aktualizacja ToDo">
+      <created>1582489821709</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582489821709</updated>
+    </task>
+    <task id="LOCAL-00009" summary="aktualizacja ToDo">
+      <created>1582489900731</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582489900731</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -144,7 +162,8 @@
     <MESSAGE value="aplikacja działa, dodałem plik toDo z poprawkami do implementacji" />
     <MESSAGE value="druk poprawny" />
     <MESSAGE value="druk poprawny, gra gitara" />
-    <option name="LAST_COMMIT_MESSAGE" value="druk poprawny, gra gitara" />
+    <MESSAGE value="aktualizacja ToDo" />
+    <option name="LAST_COMMIT_MESSAGE" value="aktualizacja ToDo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="731" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582488959000">
@@ -155,34 +174,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582481000713" />
-    <state x="541" y="114" key="CommitChangelistDialog2" timestamp="1582489820742">
+    <state x="541" y="114" key="CommitChangelistDialog2" timestamp="1582489899845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="541" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582489820742" />
-    <state width="772" height="912" key="GridCell.Tab.0.bottom" timestamp="1582489711918">
+    <state x="541" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582489899845" />
+    <state width="772" height="912" key="GridCell.Tab.0.bottom" timestamp="1582490599959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="772" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582489711918" />
-    <state width="772" height="912" key="GridCell.Tab.0.center" timestamp="1582489711918">
+    <state width="772" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582490599959" />
+    <state width="772" height="912" key="GridCell.Tab.0.center" timestamp="1582490599958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="772" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582489711918" />
-    <state width="772" height="912" key="GridCell.Tab.0.left" timestamp="1582489711918">
+    <state width="772" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582490599958" />
+    <state width="772" height="912" key="GridCell.Tab.0.left" timestamp="1582490599958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="772" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582489711918" />
-    <state width="772" height="912" key="GridCell.Tab.0.right" timestamp="1582489711918">
+    <state width="772" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582490599958" />
+    <state width="772" height="912" key="GridCell.Tab.0.right" timestamp="1582490599959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="772" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582489711918" />
+    <state width="772" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582490599959" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1582482200712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582482200712" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582489827944">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582489909541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582489827944" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582489909541" />
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582481336665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

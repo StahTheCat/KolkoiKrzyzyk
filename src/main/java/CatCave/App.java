@@ -15,6 +15,16 @@ public class App {
         Player.choose(player1);
         Player.choose(player2);
 
+        //na wypadek gdyby drugi gracz chciał ten sam znak co pierwszy
+        while (player1.mark == player2.mark) {
+            System.out.println();
+            System.out.println("jednak WCALE NIE ŚWIETNIE");
+            System.out.println("Nie możecie oboje grać: "+ player1.mark);
+            System.out.println("Gracz nr 2 powtarza...");
+            Player.choose(player2);
+        }
+
+
         // wydruk planszy
         board.printBoard();
 

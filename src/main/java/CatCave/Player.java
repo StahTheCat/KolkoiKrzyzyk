@@ -16,7 +16,7 @@ public class Player {
 
     public static void choose(Player player){
         System.out.println("Graczu wybierz znak");
-        System.out.println("Do wyboru masz X i O");
+        System.out.println("Do wyboru masz X lub O");
 
         Scanner scan = new Scanner(System.in);
 
