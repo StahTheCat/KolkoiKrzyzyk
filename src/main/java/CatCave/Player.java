@@ -14,7 +14,7 @@ public class Player {
         this.mark = mark;
     }
 
-    public void choose(Player player){
+    public static void choose(Player player){
         System.out.println("Graczu wybierz znak");
         System.out.println("Do wyboru masz X i O");
 
@@ -25,9 +25,13 @@ public class Player {
 
             if (playerMark == 'o' || playerMark == 'O' || playerMark == 0) {
                 player.setMark(Mark.O);
+                System.out.println("Świetnie! Twój wybór to: "+ player.mark);
+                System.out.println();
                 break;
             } else if (playerMark == 'x' || playerMark == 'X') {
                 player.setMark(Mark.X);
+                System.out.println("Świetnie! Twój wybór to: "+ player.mark);
+                System.out.println();
                 break;
             } else {
                 System.out.println("Niepoprawny znak");
