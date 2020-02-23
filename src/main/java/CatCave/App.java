@@ -13,5 +13,20 @@ public class App
         board.fillBoard();
         board.printBoard();
 
+        Player player = new Player();
+
+        // wybierz znak
+
+        // gra
+            // runda gracza
+            //wykonanie ruchu
+            //sprawdzenie zwyciestwa
+            //zmiana gracza
+        
+        // ekran gratulacyjny
+
+
+
+
     }
 }
