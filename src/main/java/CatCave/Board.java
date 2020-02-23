@@ -32,9 +32,19 @@ public class Board {
             sb.append(i + 1 + " ");
             for (int j = 0; j < board[i].length; j++) {
                 if (j == 2) {
-                    sb.append(" " + board[i][j] + "");
+                    if (board[i][j] == Mark.Z) {
+                        sb.append("  ");
+                    } else {
+
+                        sb.append(" " + board[i][j] + "");
+                    }
                 } else {
-                    sb.append(" " + board[i][j] + " |");
+                    if (board[i][j] == Mark.Z) {
+                        sb.append("   |");
+                    } else {
+
+                        sb.append(" " + board[i][j] + " |");
+                    }
                 }
             }
             sb.append("\n");
@@ -62,7 +72,7 @@ public class Board {
         //sprawdź kolumny
         for (int i = 0; i < board.length; i++) {
             if (board[0][i] == player.mark
-                    && board[1][i] == player.mark && board[1][i] == board[2][i]){
+                    && board[1][i] == player.mark && board[1][i] == board[2][i]) {
                 return true;
             }
 
