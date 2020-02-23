@@ -22,7 +22,7 @@ public class App
             //wykonanie ruchu
             //sprawdzenie zwyciestwa
             //zmiana gracza
-        
+
         // ekran gratulacyjny
 
 
