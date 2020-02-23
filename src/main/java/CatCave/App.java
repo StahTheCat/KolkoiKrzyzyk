@@ -1,13 +1,11 @@
 package CatCave;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) {
+
+        Game game = new Game();
         Board board = new Board();
         board.fillBoard();
 
@@ -21,16 +19,30 @@ public class App
         board.printBoard();
 
         // gra
+        while (true) {
             // runda gracza
-            //podanie współrzędnych
-            //wykonanie ruchu
-            //sprawdzenie zwyciestwa - zrobić
+
+            game.move(player1, board);
+            board.printBoard();
+
+            if (board.isThereWinner(player1)) {
+                System.out.println("Mamy zwycięzce!!");
+                System.out.println("Wygrywa: Gracz"+ player1.mark);
+                System.out.println(Prize.p);
+                break;
+            }
             //zmiana gracza
+            game.move(player2, board);
+            board.printBoard();
 
-        // ekran gratulacyjny
-
-
-
-
+            if (board.isThereWinner(player2)) {
+                System.out.println("Mamy zwycięzce!!");
+                System.out.println("Wygrywa: Gracz"+ player2.mark);
+                System.out.println(Prize.p);
+                break;
+            }
+            // ekran gratulacyjny
+        }
     }
+
 }

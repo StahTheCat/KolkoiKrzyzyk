@@ -1,6 +1,6 @@
 package CatCave;
 
 public enum Mark {
-    X,O;
-    
+    X,O,Z;
+
 }

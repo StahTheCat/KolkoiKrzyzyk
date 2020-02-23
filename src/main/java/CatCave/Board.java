@@ -4,20 +4,20 @@ import java.util.Arrays;
 
 public class Board {
 
-    char[][] board;
+    Mark[][] board;
 
     public Board() {
-        this.board = new char[3][3];
+        this.board = new Mark[3][3];
     }
 
-    public char[][] getBoard() {
+    public Mark[][] getBoard() {
         return board;
     }
 
     public void fillBoard() {
 
         for (int i = 0; i < board.length; i++) {
-            Arrays.fill(board[i], ' ');
+            Arrays.fill(board[i], Mark.Z);
         }
 
     }
@@ -45,37 +45,35 @@ public class Board {
         System.out.println(sb);
     }
 
-    public boolean isThereWinner() {
+    public boolean isThereWinner(Player player) {
 
         //sprawdź wiersze
         for (int i = 0; i < board.length; i++) {
             int winCounter = 0;
-            for (int j = 0; j < board.length - 1; j++) {
-                if (board[i][j] == board[i][j + 1]) {
+            for (int j = 0; j < board.length; j++) {
+                if (board[i][j] == player.mark) {
                     winCounter++;
                 }
-                if (winCounter == board.length - 1) {
+                if (winCounter == board.length) {
                     return true;
                 }
             }
         }
         //sprawdź kolumny
-        for (int j = 0; j < board.length; j++) {
-            int winCounter = 0;
-            for (int i = 0; i < board.length - 1; i++) {
-                if (board[i][j] == board[i + 1][j]) {
-                    winCounter++;
-                }
-                if (winCounter == board.length - 1) {
-                    return true;
-                }
+        for (int i = 0; i < board.length; i++) {
+            if (board[0][i] == player.mark
+                    && board[1][i] == player.mark && board[1][i] == board[2][i]){
+                return true;
             }
+
+
         }
         //sprawdź diagonale
-        if (board[0][0] == board[1][1] && board[1][1] == board[2][2]) {
+        if (board[0][0] == player.mark &&
+                player.mark == board[1][1] && board[1][1] == board[2][2]) {
             return true;
         }
-        if (board[0][2] == board[1][1] && board[1][1] == board[0][2]) {
+        if (board[0][2] == player.mark && player.mark == board[1][1] && board[2][0] == board[0][2]) {
             return true;
         }
 

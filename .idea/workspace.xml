@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caba97cb-afea-45c7-9c95-1b5f59b78055" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CatCave/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CatCave/Prize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CatCave/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatCave/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CatCave/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatCave/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CatCave/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatCave/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatCave/Mark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatCave/Mark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CatCave/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CatCave/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CatCave/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CatCave/Board.class" afterDir="false" />
     </list>
@@ -112,40 +114,52 @@
       <option name="project" value="LOCAL" />
       <updated>1582481870289</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="warunki wygranej">
+      <created>1582484287128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582484287128</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dodane klasy" />
     <MESSAGE value="rozpisałem schemat gry" />
     <MESSAGE value="metoda wybory znaku" />
-    <option name="LAST_COMMIT_MESSAGE" value="metoda wybory znaku" />
+    <MESSAGE value="warunki wygranej" />
+    <option name="LAST_COMMIT_MESSAGE" value="warunki wygranej" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="731" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582488959000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582488959000" />
     <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1582481000713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582481000713" />
-    <state x="541" y="114" key="CommitChangelistDialog2" timestamp="1582481869237">
+    <state x="541" y="114" key="CommitChangelistDialog2" timestamp="1582484285657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="541" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582481869237" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582482458199">
+    <state x="541" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582484285657" />
+    <state width="772" height="602" key="GridCell.Tab.0.bottom" timestamp="1582489012375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582482458199" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582482458198">
+    <state width="772" height="602" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582489012375" />
+    <state width="772" height="602" key="GridCell.Tab.0.center" timestamp="1582489012375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582482458198" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582482458198">
+    <state width="772" height="602" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582489012375" />
+    <state width="772" height="602" key="GridCell.Tab.0.left" timestamp="1582489012375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582482458198" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582482458198">
+    <state width="772" height="602" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582489012375" />
+    <state width="772" height="602" key="GridCell.Tab.0.right" timestamp="1582489012375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582482458198" />
+    <state width="772" height="602" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582489012375" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1582482200712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
